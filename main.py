@@ -16,7 +16,7 @@ from langchain.memory import ConversationBufferMemory
 
 # ================== PAGE CONFIG ==================
 st.set_page_config(page_title="ATS Resume Analyzer", layout="wide")
-st.title("Smart ATS Resume Screening System")
+st.title("🤖 Smart ATS Resume Screening System")
 # ================== CUSTOM CSS ==================
 st.markdown("""
 <style>
