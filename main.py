@@ -1,7 +1,7 @@
 # ================== IMPORTS ==================
 import streamlit as st
 import os
-from dotenv import load_dotenv
+
 
 from langchain_groq import ChatGroq
 from langchain_community.document_loaders import PyPDFLoader
@@ -13,7 +13,6 @@ from langchain_core.output_parsers import StrOutputParser
 
 from langchain.memory import ConversationBufferMemory
 
-load_dotenv()
 
 # ================== PAGE CONFIG ==================
 st.set_page_config(page_title="ATS Resume Analyzer", layout="wide")
